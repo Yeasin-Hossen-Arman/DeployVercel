@@ -18,5 +18,10 @@
             "src": "/(.*)",
             "dest": "DeployVercel/wsgi.py"
         }
-    ]
+    ],
+    "scripts": {
+      "build": "[my-framework] build --output public"
+    }
+        
+      
 }
