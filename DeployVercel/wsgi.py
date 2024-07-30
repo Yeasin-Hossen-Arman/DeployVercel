@@ -14,3 +14,6 @@ from django.core.wsgi import get_wsgi_application
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", "DeployVercel.settings")
 
 application = get_wsgi_application()
+
+# change for deploy on vercel
+app = application
